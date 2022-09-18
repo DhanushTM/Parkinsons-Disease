@@ -15,7 +15,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-# Data collection and analysis
+# Data collection 
+#and analysis
 parkinsons_data = pd.read_csv('/content/parkinsons.csv')
 
 #printing the first five rows of data frame
